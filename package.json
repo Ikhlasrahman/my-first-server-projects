@@ -6,9 +6,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "server": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@heroui/react": "^3.2.6",
+    "@heroui/styles": "^3.2.6",
+    "cors": "^2.8.6",
     "express": "^5.3.0"
   }
 }
